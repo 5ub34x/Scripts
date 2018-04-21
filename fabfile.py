@@ -9,7 +9,7 @@ from fabric.operations import sudo
 
 # Name this file fabfile.py
 # Run the following command to execute:
-# fab -i "Test.pem" -u ubuntu -H 18.130.44.42 Redirector
+# fab -i <key.pem> -u ubuntu -H <SSH IP> Redirector
 
 def Redirector():
 	# Update system
